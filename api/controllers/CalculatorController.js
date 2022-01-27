@@ -1,5 +1,5 @@
 'use strict';
 
 exports.calculate = function(req, res){
-    console.log(req);
+    console.log('works');
 }
