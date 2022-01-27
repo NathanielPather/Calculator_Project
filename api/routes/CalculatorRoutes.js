@@ -6,4 +6,6 @@ module.exports = function(app){
     app.route('/calculate')
         .get(calculator.calculate);
 
+    app.route('/post')
+        .post(calculator.post);
 };

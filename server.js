@@ -1,7 +1,9 @@
 var express = require('express');
+var cors = require("cors");
 
 app = express(),
 port = process.env.port || 3000;
+app.use(cors());
 
 // importing route
 var routes = require('./api/routes/CalculatorRoutes');
